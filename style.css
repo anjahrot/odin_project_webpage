@@ -95,7 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 60px;
+    gap: 50px;
     margin-top: 50px;
 }
 
@@ -104,7 +104,7 @@ a {
     border-style: solid;
     border-color: #3882f6;
     border-radius: 10px;
-    padding: 60px;
+    padding: 70px;
 }
 
 .container-third {
