@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto;
+    font-family: roboto, sans-serif;
 }
 
+/* Top section */
 .container-top {
     background-color: #1F2937;
     color: #f9faf8;
@@ -13,8 +14,8 @@
     padding: 10px 100px;
 }
 
+/* Header-row in top section */
 .header {
-    flex: 1;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -25,8 +26,9 @@
     margin-right: auto;
 }
 
-.navbar-links {
+ul {
     display: flex;
+    list-style: none;
     gap: 16px;
 }
 
@@ -35,6 +37,7 @@ a {
     color: #E5E7EB;
 }
 
+/* Content in top section */
 .content-top {
     flex: 1;
     display: flex;
@@ -57,7 +60,8 @@ a {
     font-size: 18px;
 }
 
-.top-left button {
+/*2 sign up buttons, additional properties added to second button */
+button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px 32px;
@@ -75,10 +79,11 @@ a {
     margin-bottom: 24px;
 }
 
+/* Second section - information */
 .container-sec {
     display: flex;
     flex-direction: column;
-    padding: 40px 180px 100px;
+    padding: 40px 180px 100px 180px;
     justify-content: center;
     align-items: center;
 }
@@ -107,6 +112,7 @@ a {
     padding: 70px;
 }
 
+/* Third section - quote */
 .container-third {
     background-color: #E5E7EB;
     padding: 100px 180px;
@@ -134,6 +140,7 @@ blockquote cite {
     padding-right: 80px;
 }
 
+/* Fourth and last section */
 .container-last {
     padding: 80px 100px;
     display: flex; 
@@ -152,11 +159,8 @@ blockquote cite {
     padding: 42px 80px;
   }
 
+/* Added white solid border on sign up button */
 .modal button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 8px 32px;
-    border-radius: 6px;
     border-color: #f9faf8;
     border-style: solid;
 }
